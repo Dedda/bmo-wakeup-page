@@ -1,0 +1,20 @@
+body {
+  background-color:#E0F0FF;
+  text-align: center;
+}
+h1 {
+  font-family:Helvetica;
+}
+p {
+  font-family: Arial;
+}
+.client-btn {
+  width: 90%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #303030;
+  border-radius: 30px;
+  margin-top: 1%;
+}
