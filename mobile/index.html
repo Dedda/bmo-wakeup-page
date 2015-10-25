@@ -4,13 +4,44 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 	</head>
 	<body>
-			<div id="shutdown-button" class="navigation-button, myButton"><a href="./shutup.html">Shut Up! Page</a></div>
     		<h1>Wake me up, Scotty!</h1>
 	        <p>
      			<font size="+2">Liste der Rechner</font><br/>
-	        	<div class="myButton"><a href="src/wake.php?host=optimus-prime">Optimus Prime</a></div><br/>
-	  			<div class="myButton"><a href="src/wake.php?host=hans-dampf">Hans Dampf</a></div><br/>
-				<div class="myButton"><a href="src/wake.php?host=video">Video</a></div>
+				<table id="btn-table">
+					<tr>
+						<td>
+							Optimus Prime
+						</td>
+						<td>
+							<div class="myButton"><a href="src/wake.php?host=optimus-prime">On!</a></div><br/>
+						</td>
+						<td>
+							<div class="myButton"><a href="src/shutdown.php?host=optimus-prime">Off!</a></div><br/>
+						</td>
+					</tr>
+				<tr>
+					<td>
+						Hans Dampf
+					</td>
+					<td>
+						<div class="myButton"><a href="src/wake.php?host=hans-dampf">On!</a></div><br/>
+					</td>
+					<td>
+						<div class="myButton"><a href="src/shutdown.php?host=hans-dampf">Off!</a></div><br/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Video
+					</td>
+					<td>
+						<div class="myButton"><a href="src/wake.php?host=video">On!</a></div>
+					</td>
+					<td>
+						<div class="myButton"><a href="src/shutdown.php?host=video">Off!</a></div>
+					</td>
+				</tr>
+				</table>
 			</p>
 	</body>
 </html>
